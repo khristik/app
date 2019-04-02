@@ -18,9 +18,7 @@ const theme = createMuiTheme({
 });
 
 export default class App extends Component {
-
   maxId = 100;
-
   state = {
     // items: [cd
     //   {id: 1, cdcdlabel: 'Learn React', done: false},

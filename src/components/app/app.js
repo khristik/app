@@ -100,7 +100,6 @@ export default class App extends Component {
   render() {
     // const items = this.state.items;
     // const user = this.user;
-
     const {items, user} = this.state;
 
     return (
@@ -118,9 +117,7 @@ export default class App extends Component {
             <div className="">
               <UserGreeting user={this.state.user} onUserSet={this.submit}/>
             </div>
-
             <ItemAddForm onItemAdded={this.onItemAdded}/>
-
             <TodoList
               items={items}
               onToggleDone={this.onToggleDone}

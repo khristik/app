@@ -1,6 +1,6 @@
+import React from 'react';
 import { createTheme, GlobalStyles as MuiGlobalStyles } from '@mui/material';
 import { blueGrey, green, grey, purple, teal } from '@mui/material/colors';
-import React from 'react';
 
 export const theme = createTheme({
   palette: {
@@ -18,7 +18,7 @@ export const theme = createTheme({
       primary: blueGrey[600],
     },
     background: {
-      // default: grey[50],
+      //default: grey[50],
       //paper: grey[200]
     },
   },

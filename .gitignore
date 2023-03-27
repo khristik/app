@@ -1,4 +1,13 @@
-*.log
-.DS_Store
-node_modules
+# JetBrains IDE
 .idea/
+
+# dependencies
+node_modules
+
+# production
+build
+
+# misc
+.DS_Store
+
+*.log

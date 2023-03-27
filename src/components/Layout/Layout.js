@@ -21,6 +21,9 @@ const Layout = () => {
       <main className={main}>
         <Menu />
         <Box className={content}>
+          <Typography>kjhygtfrdeswdfghjkijuhygtfr</Typography>
+          <Typography>kjhygtfrdeswdfghjkijuhygtfr</Typography>
+          <Typography>kjhygtfrdeswdfghjkijuhygtfr</Typography>
           <Outlet />
         </Box>
       </main>

@@ -12,21 +12,21 @@ export const theme = createTheme({
     },
     secondary: {
       main: green[600],
-     // contrastText: '#000',
+      // contrastText: '#000',
     },
-    background: {
-      //default: grey[50],
-      //paper: grey[200]
+    text: {
+      primary: blueGrey[600],
+    },
+    text1: {
+      primary: blueGrey[600],
     },
   },
-    typography:{
-        body1: {
-            color: blueGrey[600],
-        },
-        h1: {
-            //color: theme.palette.secondary.main
-        },
-    }
+  typography: {
+    color: blueGrey[600],
+    body1: {
+      color: blueGrey[600],
+    },
+  },
 });
 
 export const GlobalStyles = () => (
@@ -35,6 +35,9 @@ export const GlobalStyles = () => (
       body: {
         margin: 0,
         padding: 0,
+      },
+      p: {
+        margin: 0,
       },
       a: {
         textDecoration: 'none',

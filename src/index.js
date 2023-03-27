@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+import reportWebVitals from './reportWebVitals';
+import {ThemeProvider} from "@mui/material";
+import {theme, GlobalStyles} from "./theme";
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <ThemeProvider theme={theme}>
+          <GlobalStyles />
+          <App />
+      </ThemeProvider>
   </React.StrictMode>
 );
 

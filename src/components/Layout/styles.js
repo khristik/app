@@ -10,6 +10,7 @@ export default () => ({
     background: grey[50],
   },
   content: {
+    width: '100%',
     //width: 'calc(100% - 240px)',
   },
 });

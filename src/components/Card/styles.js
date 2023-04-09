@@ -5,10 +5,7 @@ export default (theme) => ({
     boxShadow: '0 3px 10px 0 rgba(0,0,0,.06)',
 
     'th, td': {
-      padding: 0,
-    },
-    th: {
-      paddingBottom: '10px',
+      padding: '5px',
     },
   },
   informationBlock: {

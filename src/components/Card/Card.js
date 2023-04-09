@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Table from '../Table/Table';
 import { Box, Divider, Grid, Paper, Typography } from '@mui/material';
-import { userInfo, basicUserInfo } from './constants';
+import { userInfo, basicUserInfo, companyInfo } from './constants';
 
 import styles from './styles';
 
@@ -40,17 +40,19 @@ const Card = () => {
       <Divider orientation='vertical' flexItem sx={{ mx: 3 }} />
 
       <div className={informationBlock}>
-        {[basicUserInfo, basicUserInfo, basicUserInfo].map((item) => {
-          return (
-            <>
-              <Typography component='p' color={'primary'} gutterBottom sx={{ fontWeight: 600 }}>
-                Basic Information
-              </Typography>
-              <Table cols={item} rows={[user]} />
-              {/*<TableRow obj={information}/>*/}
-            </>
-          );
-        })}
+        <Typography component='p' color={'primary'} gutterBottom sx={{ fontWeight: 600 }}>
+          Basic Information
+        </Typography>
+        <Table cols={basicUserInfo} rows={[user]} />
+        <Typography component='p' color={'primary'} gutterBottom sx={{ fontWeight: 600 }}>
+          Company (Personal) Information
+        </Typography>
+        <Table cols={basicUserInfo} rows={[user]} />
+        <Typography component='p' color={'primary'} gutterBottom sx={{ fontWeight: 600 }}>
+          Occupation Information
+        </Typography>
+        <Table cols={companyInfo} rows={[user]} />
+        {/*<TableRow obj={information}/>*/}
       </div>
     </Box>
   );

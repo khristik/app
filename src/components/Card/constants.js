@@ -39,3 +39,38 @@ export const basicUserInfo = [
     format: (value) => value.toLocaleString('en-US'),
   },
 ];
+
+export const companyInfo = [
+  {
+    id: 'position',
+    label: 'Position',
+    minWidth: 170,
+    handleClick: (value) => {
+      console.log(value);
+    },
+    title: 'Basic Information',
+  },
+  // {
+  //     id: 'lastName',
+  //     label: 'LastName',
+  //     minWidth: 170,
+  //     align: 'left',
+  //     format: (value) => value.toLocaleString('en-US'),
+  // },
+  {
+    id: 'phone',
+    label: 'Phone',
+    minWidth: 170,
+    align: 'left',
+    title: 'Company (Personal) Information',
+    format: (value) => value.toLocaleString('en-US'),
+  },
+  {
+    id: 'city',
+    label: 'Office',
+    minWidth: 170,
+    align: 'left',
+    title: 'Occupation Information',
+    format: (value) => value.toLocaleString('en-US'),
+  },
+];

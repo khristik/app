@@ -40,19 +40,17 @@ const Card = () => {
       <Divider orientation='vertical' flexItem sx={{ mx: 3 }} />
 
       <div className={informationBlock}>
-        <Typography component='p' color={'primary'} gutterBottom sx={{ fontWeight: 600 }}>
-          Basic Information
-        </Typography>
-        <Table cols={basicUserInfo} rows={[user]} />
-        <Typography component='p' color={'primary'} gutterBottom sx={{ fontWeight: 600 }}>
-          Company (Personal) Information
-        </Typography>
-        <Table cols={basicUserInfo} rows={[user]} />
-        <Typography component='p' color={'primary'} gutterBottom sx={{ fontWeight: 600 }}>
-          Occupation Information
-        </Typography>
-        <Table cols={basicUserInfo} rows={[user]} />
-        {/*<TableRow obj={information}/>*/}
+        {[basicUserInfo, basicUserInfo, basicUserInfo].map((item) => {
+          return (
+            <>
+              <Typography component='p' color={'primary'} gutterBottom sx={{ fontWeight: 600 }}>
+                Basic Information
+              </Typography>
+              <Table cols={item} rows={[user]} />
+              {/*<TableRow obj={information}/>*/}
+            </>
+          );
+        })}
       </div>
     </Box>
   );

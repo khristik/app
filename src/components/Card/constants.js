@@ -1,3 +1,13 @@
+export const userInfo = [
+  { id: 'img', label: '' },
+  { id: 'name', label: '' },
+  { id: 'position', label: '' },
+  { id: 'project', label: 'Project: ' },
+  { id: 'email', label: 'Email:' },
+  { id: 'city', label: 'Work location:' },
+  { id: 'activeSince', label: 'Active since: ' },
+];
+
 export const basicUserInfo = [
   {
     id: 'name',

@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Table from '../Table/Table';
 import { Box, Divider, Grid, Paper, Typography } from '@mui/material';
-import { basicUserInfo } from './constants';
-import TableRow from '../TableRow/TableRow';
+import { userInfo, basicUserInfo } from './constants';
 
 import styles from './styles';
 
@@ -21,23 +20,21 @@ const Card = () => {
 
   return (
     <Box p={3} className={card}>
-      <div>
-        <div className={avatarBlock}>
-          <img src='https://cdn-icons-png.flaticon.com/512/149/149071.png' alt='Avatar' className={avatarImage} />
-        </div>
-        <div className={infoBlock}>
-          <Typography variant='h6' component='p'>
-            <b>John Smith</b>
-          </Typography>
-          <Typography component='p'>Architect & Engineer</Typography>
-          <Typography component='p'>Project: App Profile</Typography>
+      <div className={infoBlock}>
+        {userInfo.map((item) => {
+          const value = user[item.id];
+          const key = item.id;
 
-          <Typography component='p'>email@gmail.com</Typography>
-          {/*<Typography component="p" color={"grey"}>*/}
-          {/*  304 Oak | Ferandale | Randburg*/}
-          {/*</Typography>*/}
-          <Typography component='p'>Active since 01.05.2021</Typography>
-        </div>
+          return key !== 'img' ? (
+            <Typography key={key} {...(key === 'name' ? { variant: 'h6' } : {})}>
+              {item.label && item.label} {value}
+            </Typography>
+          ) : (
+            <div className={avatarBlock}>
+              <img src={user[key]} alt='Avatar' className={avatarImage} />
+            </div>
+          );
+        })}
       </div>
 
       <Divider orientation='vertical' flexItem sx={{ mx: 3 }} />

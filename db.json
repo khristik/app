@@ -38,6 +38,7 @@
       "id": 1,
       "name": "Leanne Graham",
       "username": "Bret",
+      "position": "Architect & Engineer",
       "email": "Sincere@april.biz",
       "city": "Kyiv",
       "country": "Ukraine",
@@ -51,8 +52,10 @@
           "lng": "81.1496"
         }
       },
+      "img": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
       "phone": "1-770-736-8031 x56442",
-      "website": "hildegard.org",
+      "project": "App profile",
+      "activeSince": "01.05.2021",
       "company": {
         "name": "Romaguera-Crona",
         "catchPhrase": "Multi-layered client-server neural-net",
@@ -63,6 +66,7 @@
       "id": 2,
       "name": "Ervin Howell",
       "username": "Antonette",
+      "position": "Architect & Engineer",
       "email": "Shanna@melissa.tv",
       "city": "Lviv",
       "country": "Ukraine",
@@ -76,8 +80,10 @@
           "lng": "-34.4618"
         }
       },
+      "img": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
       "phone": "010-692-6593 x09125",
-      "website": "anastasia.net",
+      "project": "anastasia.net",
+      "activeSince": "01.05.2021",
       "company": {
         "name": "Deckow-Crist",
         "catchPhrase": "Proactive didactic contingency",
@@ -88,6 +94,7 @@
       "id": 3,
       "name": "Clementine Bauch",
       "username": "Samantha",
+      "position": "Architect & Engineer",
       "email": "Nathan@yesenia.net",
       "city": "Lviv",
       "country": "Ukraine",
@@ -101,8 +108,10 @@
           "lng": "-47.0653"
         }
       },
+      "img": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
       "phone": "1-463-123-4447",
-      "website": "ramiro.info",
+      "project": "ramiro.info",
+      "activeSince": "01.05.2021",
       "company": {
         "name": "Romaguera-Jacobson",
         "catchPhrase": "Face to face bifurcated interface",
@@ -113,6 +122,7 @@
       "id": 4,
       "name": "Patricia Lebsack",
       "username": "Karianne",
+      "position": "Architect & Engineer",
       "email": "Julianne.OConner@kory.org",
       "city": "Berlin",
       "country": "Germany",
@@ -126,8 +136,10 @@
           "lng": "-164.2990"
         }
       },
+      "img": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
       "phone": "493-170-9623 x156",
-      "website": "kale.biz",
+      "project": "kale.biz",
+      "activeSince": "01.05.2021",
       "company": {
         "name": "Robel-Corkery",
         "catchPhrase": "Multi-tiered zero tolerance productivity",
@@ -138,6 +150,7 @@
       "id": 5,
       "name": "Chelsey Dietrich",
       "username": "Kamren",
+      "position": "Architect & Engineer",
       "email": "Lucio_Hettinger@annie.ca",
       "city": "Miami",
       "country": "United States",
@@ -151,8 +164,10 @@
           "lng": "62.5342"
         }
       },
+      "img": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
       "phone": "(254)954-1289",
-      "website": "demarco.info",
+      "project": "demarco.info",
+      "activeSince": "01.05.2021",
       "company": {
         "name": "Keebler LLC",
         "catchPhrase": "User-centric fault-tolerant solution",
@@ -163,6 +178,7 @@
       "id": 6,
       "name": "Mrs. Dennis Schulist",
       "username": "Leopoldo_Corkery",
+      "position": "Architect & Engineer",
       "email": "Karley_Dach@jasper.info",
       "city": "London",
       "country": "Great Britain",
@@ -176,8 +192,10 @@
           "lng": "71.7478"
         }
       },
+      "img": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
       "phone": "1-477-935-8478 x6430",
-      "website": "ola.org",
+      "project": "ola.org",
+      "activeSince": "01.05.2021",
       "company": {
         "name": "Considine-Lockman",
         "catchPhrase": "Synchronised bottom-line interface",
@@ -188,6 +206,7 @@
       "id": 7,
       "name": "Kurtis Weissnat",
       "username": "Elwyn.Skiles",
+      "position": "Architect & Engineer",
       "email": "Telly.Hoeger@billy.biz",
       "city": "London",
       "country": "Great Britain",
@@ -201,8 +220,10 @@
           "lng": "21.8984"
         }
       },
+      "img": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
       "phone": "210.067.6132",
-      "website": "elvis.io",
+      "project": "elvis.io",
+      "activeSince": "01.05.2021",
       "company": {
         "name": "Johns Group",
         "catchPhrase": "Configurable multimedia task-force",
@@ -213,6 +234,7 @@
       "id": 8,
       "name": "Nicholas Runolfsdottir V",
       "username": "Maxime_Nienow",
+      "position": "Architect & Engineer",
       "email": "Sherwood@rosamond.me",
       "city": "Berlin",
       "country": "Germany",
@@ -226,8 +248,10 @@
           "lng": "-120.7677"
         }
       },
+      "img": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
       "phone": "586.493.6943 x140",
-      "website": "jacynthe.com",
+      "project": "jacynthe.com",
+      "activeSince": "01.05.2021",
       "company": {
         "name": "Abernathy Group",
         "catchPhrase": "Implemented secondary concept",
@@ -238,6 +262,7 @@
       "id": 9,
       "name": "Glenna Reichert",
       "username": "Delphine",
+      "position": "Architect & Engineer",
       "email": "Chaim_McDermott@dana.io",
       "city": "Paris",
       "country": "France",
@@ -251,8 +276,10 @@
           "lng": "-168.8889"
         }
       },
+      "img": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
       "phone": "(775)976-6794 x41206",
-      "website": "conrad.com",
+      "project": "conrad.com",
+      "activeSince": "01.05.2021",
       "company": {
         "name": "Yost and Sons",
         "catchPhrase": "Switchable contextually-based project",
@@ -263,6 +290,7 @@
       "id": 10,
       "name": "Clementina DuBuque",
       "username": "Moriah.Stanton",
+      "position": "Architect & Engineer",
       "email": "Rey.Padberg@karina.biz",
       "city": "Porto",
       "country": "Portugal",
@@ -276,8 +304,10 @@
           "lng": "57.2232"
         }
       },
+      "img": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
       "phone": "024-648-3804",
-      "website": "ambrose.net",
+      "project": "ambrose.net",
+      "activeSince": "01.05.2021",
       "company": {
         "name": "Hoeger LLC",
         "catchPhrase": "Centralized empowering task-force",
@@ -288,6 +318,7 @@
       "id": 11,
       "name": "Clementina DuBuque",
       "username": "Moriah.Stanton",
+      "position": "Architect & Engineer",
       "email": "Rey.Padberg@karina.biz",
       "city": "Lisboa",
       "country": "Portugal",
@@ -301,8 +332,10 @@
           "lng": "57.2232"
         }
       },
+      "img": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
       "phone": "024-648-3804",
-      "website": "ambrose.net",
+      "project": "ambrose.net",
+      "activeSince": "01.05.2021",
       "company": {
         "name": "Hoeger LLC",
         "catchPhrase": "Centralized empowering task-force",

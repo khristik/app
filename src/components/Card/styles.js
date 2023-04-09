@@ -26,5 +26,13 @@ export default (theme) => ({
   },
   infoBlock: {
     textAlign: 'center',
+
+    'p:nth-child(4)': {
+      paddingBottom: theme.spacing(3),
+    },
+
+    'p:nth-child(n+5)': {
+      textAlign: 'left',
+    },
   },
 });

@@ -32,6 +32,6 @@ const Breadcrumbs = () => {
       {crumbs}
     </MuiBreadcrumbs>
   );
-}
+};
 
 export default Breadcrumbs;
